@@ -1,0 +1,6 @@
+mode,metric,target,p50_ms,p95_ms,p99_ms,mean_ms,max_ms
+delay10,rtt_http,node1,21.7374,23.6274,30.4477,22.1027,33.4053
+delay10,rtt_http,node2,21.6495,22.0049,23.0608,21.75,31.7094
+delay10,rtt_http,node3,21.6523,22.1373,34.7383,22.0081,38.3726
+delay10,rtt_http,node4,21.6212,22.0714,22.2627,21.6483,22.5423
+delay10,federated_query,all,95.4791,99.3337,121.455,96.136,122.239
