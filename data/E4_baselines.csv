@@ -1,0 +1,5 @@
+variant,error,communication
+central_plaintext,0.0,540
+central_dp_uniform,1.0,540
+local_dp,2.0,4
+construction_thm2,2.0,75.99923868132106
