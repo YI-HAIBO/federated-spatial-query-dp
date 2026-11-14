@@ -1,0 +1,5 @@
+﻿qi,N,hier_geo,flat_geo,hier_rr,flat_rr,hier_le_flat,hier_classes,flat_classes,hier_kmin,flat_kmin,hier_1_over_kmin,flat_1_over_kmin,hier_1_over_kavg,flat_1_over_kavg,hier_le_1_kmin,flat_le_1_kmin
+q0:仅地理,346,省,市,0.022388,0.079154,True,20,48,1,1,1.0,1.0,0.057803,0.138728,True,True
+q1:+企业类型,346,省,市,0.044007,0.126642,True,34,69,1,1,1.0,1.0,0.098266,0.199422,True,True
+q2:+生态分类,346,省,市,0.127056,0.234635,True,71,110,1,1,1.0,1.0,0.205202,0.317919,True,True
+q3:+所属赛道,346,省,市,0.712606,0.758126,True,267,278,1,1,1.0,1.0,0.771676,0.803468,True,True
