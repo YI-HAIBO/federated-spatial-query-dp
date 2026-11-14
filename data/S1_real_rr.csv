@@ -1,0 +1,5 @@
+source,q_quasi_id,n_entities,rr_hierarchical,rr_flat,theory_bound_e1,hier_le_bound
+REAL:智能体招聘_智联_深圳_20260816,0,200,0.01,0.075,0.7311,True
+REAL:智能体招聘_智联_深圳_20260816,1,200,0.335,0.6,0.7311,True
+REAL:智能体招聘_智联_深圳_20260816,2,200,0.535,0.675,0.7311,True
+REAL:智能体招聘_智联_深圳_20260816,3,200,0.635,0.73,0.7311,True
