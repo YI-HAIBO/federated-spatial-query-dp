@@ -1,0 +1,13 @@
+dataset,n_entities,q_quasi_id,rr_unique_hier,rr_unique_flat,rr_eics_hier,rr_eics_flat,theory_bound_e1,hier_le_flat_unique,unique_le_bound
+Shenzhen job postings,200,0,0.01,0.075,0.0127,0.1225,0.7311,True,True
+Shenzhen job postings,200,1,0.335,0.6,0.4172,0.6708,0.7311,True,True
+Shenzhen job postings,200,2,0.535,0.675,0.608,0.7354,0.7311,True,True
+Shenzhen job postings,200,3,0.635,0.73,0.702,0.7825,0.7311,True,True
+Multi-city job postings,647,0,0.1824,0.238,0.2319,0.3008,0.7311,True,True
+Multi-city job postings,647,1,0.2921,0.3756,0.3539,0.4365,0.7311,True,True
+Multi-city job postings,647,2,0.476,0.544,0.5452,0.6059,0.7311,True,True
+Multi-city job postings,647,3,0.9304,0.9366,0.9472,0.9518,0.7311,True,False
+Enterprise entities,346,0,0.0145,0.0607,0.0224,0.0792,0.7311,True,True
+Enterprise entities,346,1,0.026,0.0983,0.044,0.1266,0.7311,True,True
+Enterprise entities,346,2,0.0896,0.1936,0.1271,0.2346,0.7311,True,True
+Enterprise entities,346,3,0.6705,0.7283,0.7126,0.7581,0.7311,True,True
