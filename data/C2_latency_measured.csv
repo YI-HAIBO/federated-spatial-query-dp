@@ -1,0 +1,6 @@
+﻿J,grid,K,eps,n,p50_us,p95_us,p99_us,mean_us,med_comm_bits,env,note
+4,16,256,1.0,800,62.3,72.035,122.971,64.847,8.0,single_process_windows,perf_counter进程内测量，非容器/网络RTT
+8,16,256,1.0,800,63.2,138.405,147.424,79.225,8.0,single_process_windows,perf_counter进程内测量，非容器/网络RTT
+8,32,1024,1.0,800,244.7,382.15,524.115,260.987,12.0,single_process_windows,perf_counter进程内测量，非容器/网络RTT
+16,32,1024,1.0,800,245.95,517.805,547.102,283.547,12.0,single_process_windows,perf_counter进程内测量，非容器/网络RTT
+16,64,4096,1.0,800,986.3,2050.86,2152.775,1134.527,16.0,single_process_windows,perf_counter进程内测量，非容器/网络RTT
