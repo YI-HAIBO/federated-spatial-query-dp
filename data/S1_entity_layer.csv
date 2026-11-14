@@ -1,0 +1,5 @@
+region,prior,RR,theory_bound_e1
+hierarchical(省州),none,0.0667,
+flat(城市),none,0.8222,
+hierarchical(省州),jurisdiction,0.0667,0.7310585786300049
+flat(城市),jurisdiction,0.8222,0.7310585786300049
