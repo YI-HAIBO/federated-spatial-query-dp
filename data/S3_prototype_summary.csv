@@ -1,0 +1,4 @@
+workload,n,med_err,med_comm_msgs,ratio_comm_msgs_over_lb_bits
+range,8,0.0968,8.0,0.157
+cascade,9,0.35042,3,0.097
+knn,13,0.18138,2,0.077
