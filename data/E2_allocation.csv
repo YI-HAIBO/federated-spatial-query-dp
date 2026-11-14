@@ -1,0 +1,13 @@
+allocation,branching,constrained_inference,relative_error
+uniform,2,False,0.78087
+uniform,2,True,0.43712
+uniform,4,False,0.45838
+uniform,4,True,0.23882
+uniform,8,False,0.33766
+uniform,8,True,0.20942
+optimal,2,False,3.795
+optimal,2,True,4.27716
+optimal,4,False,0.83553
+optimal,4,True,0.41259
+optimal,8,False,0.45973
+optimal,8,True,0.29794
