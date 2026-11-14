@@ -1,0 +1,5 @@
+n_entities,q_quasi_id,rr_hierarchical,rr_flat,theory_bound_e1,hier_le_bound
+647,0,0.1824,0.238,0.7311,True
+647,1,0.2921,0.3756,0.7311,True
+647,2,0.476,0.544,0.7311,True
+647,3,0.9304,0.9366,0.7311,False
