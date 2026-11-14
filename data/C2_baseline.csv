@@ -1,0 +1,6 @@
+mode,metric,target,p50_ms,p95_ms,p99_ms,mean_ms,max_ms
+baseline,rtt_http,node1,0.8982,1.3519,3.9781,1.0033,10.7259
+baseline,rtt_http,node2,0.9725,4.979,19.2026,1.6176,28.8134
+baseline,rtt_http,node3,0.9291,1.5109,5.9593,1.0492,6.5188
+baseline,rtt_http,node4,0.9868,2.0467,9.5647,1.3102,9.9425
+baseline,federated_query,all,14.112,16.9486,34.4608,14.6177,39.6253
