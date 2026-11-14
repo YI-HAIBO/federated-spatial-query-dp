@@ -1,0 +1,8 @@
+variant,label,err,comm,comm_over_LB,source
+central_plaintext,"Central, no privacy",0.0,256.0,0.2581,Baseline: read all K cells
+central_dp_uniform,Central DP (uniform noise),1.0,256.0,0.2581,"Central model, O(1/eps) noise; read all K cells"
+local_dp,Local DP (per-cluster),2.0,4.0,0.004,"Local model, per-cluster noise ~O(1/eps); O(J) uploads"
+ldp_fsrq,LDP-FSRQ (Feng et al. 2024),10.9545,120.0,0.121,"LDP spatial range query: error ~O(sqrt(n(Q))/eps), comm ~O(n(Q))"
+fsp_secagg,FSP + SecAgg (Zhang et al. 2024),1.0,32.0,0.0323,"DP + SecAgg: SecAgg cancels individual noise -> central-level error O(1/eps), comm ~O(J log K)"
+privtree,PrivTree (Zhang et al. 2016),8.0,256.0,0.2581,"Hierarchical decomposition, noise independent of tree height ~O(log K/eps); centralized, comm ~O(K)"
+construction_thm2,This construction (Thm 2),2.0,76.0,0.0766,Measured (E4_baselines.csv); consistent projection + R-tree routing + Bloom pruning + cost optimizer
