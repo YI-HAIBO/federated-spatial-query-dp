@@ -1,0 +1,9 @@
+check,detail,value
+A,K=16 sqrtK=4.0 nQ=24.0,c=nQ/sqrtK=6.00
+A,K=64 sqrtK=8.0 nQ=56.0,c=nQ/sqrtK=7.00
+A,K=256 sqrtK=16.0 nQ=120.0,c=nQ/sqrtK=7.50
+A,K=1024 sqrtK=32.0 nQ=248.0,c=nQ/sqrtK=7.75
+A,K=4096 sqrtK=64.0 nQ=504.0,c=nQ/sqrtK=7.88
+A,K=65536 sqrtK=256.0 nQ=2040.0,c=nQ/sqrtK=7.97
+A_conclusion,nQ=Θ(√K) constant c≈7.97,tight
+D,h=3 uniform_eps_min=0.333 -> realloc_eps_min=1.0,improvement_ratio=3.0x
