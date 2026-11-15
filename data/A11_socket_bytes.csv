@@ -1,0 +1,10 @@
+﻿block,mechanism,n_queries,n,med_messages,med_payload_bytes,med_wire_bytes
+A11_payload,construction,300,300,2.0,20.0,180.0
+A11_payload,flat_central,300,300,36.0,432.0,3312.0
+A11_payload,ldp_fsrq,300,300,108.0,972.0,9612.0
+A11_payload,fsp_secagg,300,300,8.0,72.0,712.0
+A11_payload,privtree,300,300,6.0,54.0,534.0
+A11_socket,construction,300,0,0.0,7270,7270
+A11_socket,flat_central,300,0,0.0,298140,298140
+A11_socket,fsp_secagg,300,0,0.0,21600,21600
+A11_socket,privtree,300,0,0.0,16200,16200

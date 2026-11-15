@@ -1,0 +1,175 @@
+{
+  "q_of_interest": 1,
+  "pooled_p_hier": 0.1903,
+  "pooled_p_flat": 0.3328,
+  "n_entities": 1193,
+  "delta": -0.1425,
+  "cohens_h": 0.327,
+  "n80_per_group": 148.1,
+  "n90_per_group": 197.8,
+  "achieved_power_current": 1.0,
+  "sensitivity": [
+    {
+      "delta": -0.03,
+      "n_per_80": 3780.1
+    },
+    {
+      "delta": -0.05,
+      "n_per_80": 1336.6
+    },
+    {
+      "delta": -0.08,
+      "n_per_80": 506.7
+    },
+    {
+      "delta": -0.1,
+      "n_per_80": 317.2
+    },
+    {
+      "delta": -0.1257,
+      "n_per_80": 194.6
+    },
+    {
+      "delta": -0.1425,
+      "n_per_80": 148.1
+    },
+    {
+      "delta": -0.18,
+      "n_per_80": 87.9
+    },
+    {
+      "delta": -0.25,
+      "n_per_80": 40.1
+    },
+    {
+      "delta": -0.37,
+      "n_per_80": 20.2
+    }
+  ],
+  "power_curve": [
+    {
+      "n_per": 100,
+      "power": 0.63
+    },
+    {
+      "n_per": 150,
+      "power": 0.802
+    },
+    {
+      "n_per": 200,
+      "power": 0.9
+    },
+    {
+      "n_per": 300,
+      "power": 0.978
+    },
+    {
+      "n_per": 400,
+      "power": 0.996
+    },
+    {
+      "n_per": 596,
+      "power": 1.0
+    },
+    {
+      "n_per": 800,
+      "power": 1.0
+    },
+    {
+      "n_per": 1200,
+      "power": 1.0
+    }
+  ],
+  "per_dataset": [
+    {
+      "name": "S1_深圳",
+      "n": 200,
+      "q_vals": [
+        {
+          "q": 0,
+          "rr_hier": 0.01,
+          "rr_flat": 0.075,
+          "delta": -0.065
+        },
+        {
+          "q": 1,
+          "rr_hier": 0.335,
+          "rr_flat": 0.6,
+          "delta": -0.265
+        },
+        {
+          "q": 2,
+          "rr_hier": 0.535,
+          "rr_flat": 0.675,
+          "delta": -0.14
+        },
+        {
+          "q": 3,
+          "rr_hier": 0.635,
+          "rr_flat": 0.73,
+          "delta": -0.095
+        }
+      ]
+    },
+    {
+      "name": "B1_多市",
+      "n": 647,
+      "q_vals": [
+        {
+          "q": 0,
+          "rr_hier": 0.1267,
+          "rr_flat": 0.238,
+          "delta": -0.1113
+        },
+        {
+          "q": 1,
+          "rr_hier": 0.2334,
+          "rr_flat": 0.3756,
+          "delta": -0.1422
+        },
+        {
+          "q": 2,
+          "rr_hier": 0.4111,
+          "rr_flat": 0.544,
+          "delta": -0.1329
+        },
+        {
+          "q": 3,
+          "rr_hier": 0.9274,
+          "rr_flat": 0.9366,
+          "delta": -0.0093
+        }
+      ]
+    },
+    {
+      "name": "B2_企业",
+      "n": 346,
+      "q_vals": [
+        {
+          "q": 0,
+          "rr_hier": 0.0145,
+          "rr_flat": 0.0607,
+          "delta": -0.0462
+        },
+        {
+          "q": 1,
+          "rr_hier": 0.026,
+          "rr_flat": 0.0983,
+          "delta": -0.0723
+        },
+        {
+          "q": 2,
+          "rr_hier": 0.0896,
+          "rr_flat": 0.1936,
+          "delta": -0.104
+        },
+        {
+          "q": 3,
+          "rr_hier": 0.6705,
+          "rr_flat": 0.7283,
+          "delta": -0.0578
+        }
+      ]
+    }
+  ]
+}

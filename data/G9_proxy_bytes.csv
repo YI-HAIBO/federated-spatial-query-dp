@@ -1,0 +1,3 @@
+﻿block,mechanism,mode,n_queries,n_responses,app_bytes_c2s,app_bytes_s2c,app_bytes_total,payload_bytes_read,on_wire_model_total
+G9_proxy,construction,hier,300,300,4800,11056,15856,7040,16552
+G9_proxy,flat_central,flat,300,300,4800,343808,348608,256956,362528

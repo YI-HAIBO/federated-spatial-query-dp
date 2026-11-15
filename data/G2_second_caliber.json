@@ -1,0 +1,121 @@
+{
+  "limitation_addressed": "G2: single official caliber could be coincidental",
+  "approach": "Added a SECOND, structurally independent official caliber (2023 city GDP, source 各市统计局) to the existing 7th-census population caliber, and verified both correlate positively with our per-city entity counts.",
+  "caliber1_population": {
+    "rho": 0.576,
+    "n": 24,
+    "source": "7th National Population Census 2020 resident population"
+  },
+  "caliber2_gdp": {
+    "rho": 0.582,
+    "n": 20,
+    "source": "各市统计局(2023年GDP,聚汇数据编译2024-02-15)"
+  },
+  "combined": {
+    "both_positive": true,
+    "min_rho": 0.576,
+    "interpretation": "Per-city entity counts rank-correlate positively with BOTH resident population and economic scale, so the penetration pattern is not an artifact of a single official magnitude."
+  },
+  "rows": [
+    {
+      "city": "上海",
+      "our_entities": 26,
+      "gdp_2023_yi": 47218.7
+    },
+    {
+      "city": "东莞",
+      "our_entities": 16,
+      "gdp_2023_yi": 11438.1
+    },
+    {
+      "city": "佛山",
+      "our_entities": 14,
+      "gdp_2023_yi": 13276.0
+    },
+    {
+      "city": "北京",
+      "our_entities": 64,
+      "gdp_2023_yi": 43760.7
+    },
+    {
+      "city": "南京",
+      "our_entities": 73,
+      "gdp_2023_yi": 17421.4
+    },
+    {
+      "city": "合肥",
+      "our_entities": 17,
+      "gdp_2023_yi": 12673.8
+    },
+    {
+      "city": "天津",
+      "our_entities": 12,
+      "gdp_2023_yi": 16737.3
+    },
+    {
+      "city": "宁波",
+      "our_entities": 3,
+      "gdp_2023_yi": 16452.8
+    },
+    {
+      "city": "广州",
+      "our_entities": 42,
+      "gdp_2023_yi": 30355.7
+    },
+    {
+      "city": "成都",
+      "our_entities": 41,
+      "gdp_2023_yi": 22074.7
+    },
+    {
+      "city": "无锡",
+      "our_entities": 8,
+      "gdp_2023_yi": 15456.2
+    },
+    {
+      "city": "杭州",
+      "our_entities": 36,
+      "gdp_2023_yi": 20059.0
+    },
+    {
+      "city": "济南",
+      "our_entities": 18,
+      "gdp_2023_yi": 12757.4
+    },
+    {
+      "city": "深圳",
+      "our_entities": 44,
+      "gdp_2023_yi": 34606.4
+    },
+    {
+      "city": "福州",
+      "our_entities": 15,
+      "gdp_2023_yi": 12928.5
+    },
+    {
+      "city": "苏州",
+      "our_entities": 33,
+      "gdp_2023_yi": 24653.4
+    },
+    {
+      "city": "郑州",
+      "our_entities": 38,
+      "gdp_2023_yi": 13617.8
+    },
+    {
+      "city": "重庆",
+      "our_entities": 25,
+      "gdp_2023_yi": 30145.8
+    },
+    {
+      "city": "长沙",
+      "our_entities": 19,
+      "gdp_2023_yi": 14332.0
+    },
+    {
+      "city": "青岛",
+      "our_entities": 40,
+      "gdp_2023_yi": 15760.3
+    }
+  ]
+}

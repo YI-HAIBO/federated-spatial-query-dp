@@ -1,0 +1,114 @@
+{
+  "limitation_addressed": "G1: small effect |delta|<=0.05 requires larger sample",
+  "approach": "Inverse power analysis: Minimum Detectable Effect (MDE) at the CURRENT pooled sample (n=1193, per-group n_per=596.5), two-proportion z-test, alpha=0.05 two-sided, equal per-group n.  Replaces the 'needs larger sample' statement with an exact detection-limit number.",
+  "baseline": {
+    "p_hier": 0.1903,
+    "p_flat": 0.3328,
+    "delta_obs": -0.1425,
+    "n_entities": 1193,
+    "n_per_current": 596.5
+  },
+  "mde_current_n": {
+    "mde_80": 0.074,
+    "mde_90": 0.085,
+    "mde_80_alt_baseline": 0.0676,
+    "mde_90_alt_baseline": 0.0788
+  },
+  "observed_vs_mde": {
+    "ratio_over_mde80": 1.93,
+    "ratio_over_mde90": 1.68,
+    "cohens_h_observed": 0.327,
+    "cohens_h_mde80": 0.162,
+    "cohens_h_mde90": 0.188
+  },
+  "mde_table": [
+    {
+      "n_per": 50,
+      "mde_80": 0.2288,
+      "mde_90": 0.2562
+    },
+    {
+      "n_per": 100,
+      "mde_80": 0.17,
+      "mde_90": 0.1928
+    },
+    {
+      "n_per": 148,
+      "mde_80": 0.1426,
+      "mde_90": 0.1624
+    },
+    {
+      "n_per": 150,
+      "mde_80": 0.1417,
+      "mde_90": 0.1614
+    },
+    {
+      "n_per": 198,
+      "mde_80": 0.1247,
+      "mde_90": 0.1424
+    },
+    {
+      "n_per": 200,
+      "mde_80": 0.1241,
+      "mde_90": 0.1418
+    },
+    {
+      "n_per": 300,
+      "mde_80": 0.1027,
+      "mde_90": 0.1176
+    },
+    {
+      "n_per": 400,
+      "mde_80": 0.0896,
+      "mde_90": 0.1028
+    },
+    {
+      "n_per": 596,
+      "mde_80": 0.074,
+      "mde_90": 0.0851
+    },
+    {
+      "n_per": 800,
+      "mde_80": 0.0642,
+      "mde_90": 0.0739
+    },
+    {
+      "n_per": 1200,
+      "mde_80": 0.0527,
+      "mde_90": 0.0607
+    },
+    {
+      "n_per": 2000,
+      "mde_80": 0.041,
+      "mde_90": 0.0473
+    }
+  ],
+  "baseline_sensitivity": [
+    {
+      "p_flat": 0.1,
+      "mde_80": 0.0435,
+      "mde_90": 0.0494
+    },
+    {
+      "p_flat": 0.2,
+      "mde_80": 0.0608,
+      "mde_90": 0.0696
+    },
+    {
+      "p_flat": 0.3328,
+      "mde_80": 0.074,
+      "mde_90": 0.085
+    },
+    {
+      "p_flat": 0.45,
+      "mde_80": 0.0797,
+      "mde_90": 0.0919
+    },
+    {
+      "p_flat": 0.6,
+      "mde_80": 0.0805,
+      "mde_90": 0.0931
+    }
+  ],
+  "conclusion": "With the current n=1193 (n_per=596.5), the smallest effect the study can detect is |delta| = 0.0740 (80% power) / 0.0850 (90% power), corresponding to Cohen's h = 0.162 / 0.188.  The OBSERVED effect (|delta|=0.1425, h=0.327) is 1.9x above the 80% detection limit and 1.7x above the 90% limit.  Hence the '|delta|<=0.05 needs a larger sample' limitation is not binding here: the study is NOT under-powered for the effect it actually reports; it would only be under-powered for effects below the MDE (a |delta| of 0.0740 or smaller), which is a detection-limit boundary, not a failure to detect the reported effect."
+}

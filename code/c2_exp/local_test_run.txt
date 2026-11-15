@@ -1,0 +1,3 @@
+﻿MEASURE_DONE mode=--mode rows=2 out=--out
+MAIN_OK
+CSV_MISSING

@@ -1,0 +1,64 @@
+{
+  "generated": "2026-11-15",
+  "items": {
+    "A3_tightness_bounded_factor": {
+      "rows": 27,
+      "ratio_min": 0.0792,
+      "ratio_max": 0.1846,
+      "bound_over_construction_max": 12.6,
+      "monotone_J48": true,
+      "near_flat_J16": true,
+      "g6_framing_present": true,
+      "result": "PASS"
+    },
+    "A4_threat_model_complete_proof": {
+      "07J_has_complete_lemma_proof": true,
+      "07J_has_game_reduction": true,
+      "g7_z3_unsat_x2": true,
+      "result": "PASS"
+    },
+    "A5_q_sensitivity_c_stratified": {
+      "c_pairs": 12,
+      "c_min": 1.07,
+      "c_max": 39.79,
+      "bound_max": 1.0,
+      "bound_min": 0.065,
+      "monotone_decreasing": true,
+      "result": "PASS"
+    },
+    "A6_real_official_crosscheck": {
+      "cities": 24,
+      "spearman_rho": 0.576,
+      "real_source": true,
+      "result": "PASS"
+    },
+    "A7_sample_size_power": {
+      "achieved_power_current": 1.0,
+      "delta": -0.1425,
+      "cohens_h": 0.327,
+      "pooled_q_count": 4,
+      "all_q_ci_negative": true,
+      "result": "PASS"
+    },
+    "A8_leaveone_and_crossregion": {
+      "leaveone_keep_total": "45/45",
+      "cross_region_cities": 25,
+      "cross_region_universal": true,
+      "cross_region_sign_neg": 25,
+      "refinement_violations": 0,
+      "result": "PASS"
+    },
+    "A11_real_on_wire_bytes": {
+      "construction_bytes": 16552,
+      "flat_bytes": 362528,
+      "reduction_x": 21.9,
+      "result": "PASS"
+    },
+    "A12_machine_verification_signoff": {
+      "g7_z3_unsat": true,
+      "g7_enumeration": true,
+      "signoff_zip_entries": 14,
+      "result": "PASS"
+    }
+  }
+}

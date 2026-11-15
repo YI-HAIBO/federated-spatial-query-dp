@@ -1,0 +1,34 @@
+services:
+  node1:
+    build: .
+    image: c2node:latest
+    container_name: c2node1
+    networks: [c2net]
+  node2:
+    image: c2node:latest
+    container_name: c2node2
+    depends_on: [node1]
+    networks: [c2net]
+  node3:
+    image: c2node:latest
+    container_name: c2node3
+    depends_on: [node1]
+    networks: [c2net]
+  node4:
+    image: c2node:latest
+    container_name: c2node4
+    depends_on: [node1]
+    networks: [c2net]
+  client:
+    image: c2node:latest
+    container_name: c2client
+    command: ["sleep", "infinity"]
+    depends_on: [node1, node2, node3, node4]
+    networks: [c2net]
+
+networks:
+  c2net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.30.0.0/24

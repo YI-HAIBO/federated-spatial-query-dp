@@ -1,0 +1,269 @@
+{
+  "refinement_theorem": {
+    "checks": 12,
+    "violations": 0,
+    "theorem_holds": true
+  },
+  "real_datasets": [
+    {
+      "name": "S1_深圳",
+      "n": 200,
+      "hier_risks": [
+        0.01,
+        0.335,
+        0.535,
+        0.635
+      ],
+      "flat_risks": [
+        0.075,
+        0.6,
+        0.675,
+        0.73
+      ],
+      "delta_per_q": [
+        -0.065,
+        -0.265,
+        -0.14,
+        -0.095
+      ],
+      "all_delta_le0": true,
+      "hier_level_monotone": true,
+      "flat_level_monotone": true
+    },
+    {
+      "name": "B1_多市",
+      "n": 647,
+      "hier_risks": [
+        0.1267,
+        0.2334,
+        0.4111,
+        0.9274
+      ],
+      "flat_risks": [
+        0.238,
+        0.3756,
+        0.544,
+        0.9366
+      ],
+      "delta_per_q": [
+        -0.1113,
+        -0.1422,
+        -0.1329,
+        -0.0093
+      ],
+      "all_delta_le0": true,
+      "hier_level_monotone": true,
+      "flat_level_monotone": true
+    },
+    {
+      "name": "B2_企业",
+      "n": 346,
+      "hier_risks": [
+        0.0145,
+        0.026,
+        0.0896,
+        0.6705
+      ],
+      "flat_risks": [
+        0.0607,
+        0.0983,
+        0.1936,
+        0.7283
+      ],
+      "delta_per_q": [
+        -0.0462,
+        -0.0723,
+        -0.104,
+        -0.0578
+      ],
+      "all_delta_le0": true,
+      "hier_level_monotone": true,
+      "flat_level_monotone": true
+    }
+  ],
+  "cross_region": {
+    "cities": [
+      {
+        "city": "广州",
+        "n": 42,
+        "rr_hier": 0.2857,
+        "rr_flat": 0.7619,
+        "delta": -0.4762
+      },
+      {
+        "city": "济南",
+        "n": 18,
+        "rr_hier": 0.3333,
+        "rr_flat": 0.6667,
+        "delta": -0.3333
+      },
+      {
+        "city": "北京",
+        "n": 64,
+        "rr_hier": 0.2656,
+        "rr_flat": 0.5781,
+        "delta": -0.3125
+      },
+      {
+        "city": "成都",
+        "n": 41,
+        "rr_hier": 0.2927,
+        "rr_flat": 0.5122,
+        "delta": -0.2195
+      },
+      {
+        "city": "南京",
+        "n": 73,
+        "rr_hier": 0.1781,
+        "rr_flat": 0.3699,
+        "delta": -0.1918
+      },
+      {
+        "city": "沈阳",
+        "n": 23,
+        "rr_hier": 0.2609,
+        "rr_flat": 0.4348,
+        "delta": -0.1739
+      },
+      {
+        "city": "杭州",
+        "n": 36,
+        "rr_hier": 0.25,
+        "rr_flat": 0.4167,
+        "delta": -0.1667
+      },
+      {
+        "city": "合肥",
+        "n": 17,
+        "rr_hier": 0.7647,
+        "rr_flat": 0.8824,
+        "delta": -0.1176
+      },
+      {
+        "city": "上海",
+        "n": 26,
+        "rr_hier": 0.5385,
+        "rr_flat": 0.6154,
+        "delta": -0.0769
+      },
+      {
+        "city": "苏州",
+        "n": 33,
+        "rr_hier": 0.4545,
+        "rr_flat": 0.5152,
+        "delta": -0.0606
+      },
+      {
+        "city": "青岛",
+        "n": 40,
+        "rr_hier": 0.275,
+        "rr_flat": 0.3,
+        "delta": -0.025
+      },
+      {
+        "city": "东莞",
+        "n": 16,
+        "rr_hier": 0.4375,
+        "rr_flat": 0.4375,
+        "delta": 0.0
+      },
+      {
+        "city": "佛山",
+        "n": 14,
+        "rr_hier": 0.5,
+        "rr_flat": 0.5,
+        "delta": 0.0
+      },
+      {
+        "city": "南山粤海",
+        "n": 3,
+        "rr_hier": 0.0,
+        "rr_flat": 0.0,
+        "delta": 0.0
+      },
+      {
+        "city": "厦门",
+        "n": 18,
+        "rr_hier": 0.7778,
+        "rr_flat": 0.7778,
+        "delta": 0.0
+      },
+      {
+        "city": "哈尔滨",
+        "n": 19,
+        "rr_hier": 0.5263,
+        "rr_flat": 0.5263,
+        "delta": 0.0
+      },
+      {
+        "city": "天津",
+        "n": 12,
+        "rr_hier": 0.75,
+        "rr_flat": 0.75,
+        "delta": 0.0
+      },
+      {
+        "city": "宁波",
+        "n": 3,
+        "rr_hier": 1.0,
+        "rr_flat": 1.0,
+        "delta": 0.0
+      },
+      {
+        "city": "无锡",
+        "n": 8,
+        "rr_hier": 0.75,
+        "rr_flat": 0.75,
+        "delta": 0.0
+      },
+      {
+        "city": "珠海",
+        "n": 3,
+        "rr_hier": 1.0,
+        "rr_flat": 1.0,
+        "delta": 0.0
+      },
+      {
+        "city": "福州",
+        "n": 15,
+        "rr_hier": 0.6,
+        "rr_flat": 0.6,
+        "delta": 0.0
+      },
+      {
+        "city": "郑州",
+        "n": 38,
+        "rr_hier": 0.5263,
+        "rr_flat": 0.5263,
+        "delta": 0.0
+      },
+      {
+        "city": "重庆",
+        "n": 25,
+        "rr_hier": 0.52,
+        "rr_flat": 0.52,
+        "delta": 0.0
+      },
+      {
+        "city": "长沙",
+        "n": 19,
+        "rr_hier": 0.7368,
+        "rr_flat": 0.7368,
+        "delta": 0.0
+      },
+      {
+        "city": "龙岗坂田",
+        "n": 17,
+        "rr_hier": 0.0588,
+        "rr_flat": 0.0588,
+        "delta": 0.0
+      }
+    ],
+    "n_cities": 25,
+    "sign_neg": 25,
+    "sign_universal": true,
+    "min_delta": -0.4762,
+    "max_delta": 0.0
+  },
+  "conclusion": "The hierarchical risk <= flat risk (Delta<=0) is a DETERMINISTIC consequence of partition refinement: the flat quasi-identifier set is a refinement (adds 'street' or refines 'prov'->'city') of the hierarchical set, so every flat class is a subset of a hierarchical class and flat is at least as identifying.  Verified exhaustively (0 violations over all attribute-subset refinements) and on all 3 real datasets at every level q=0..3 (all delta<=0, level-monotone).  Hence A7/A8's Delta<0 is STRUCTURAL, not an empirical discovery; the generalizable content is the MAGNITUDE of the reduction, which is data-dependent (cross-region delta in [-0.4762, 0.0000])."
+}

@@ -1,0 +1,6 @@
+﻿baseline,n,grid,depth,med_err,med_comm_bits,med_onwire_bytes,err_median
+construction,300,32,5,0.00448,12.0,164.0,0.00448
+flat_central,300,32,5,0.26256,288.0,4176.0,0.26256
+ldp_fsrq,300,32,5,0.00448,864.0,20304.0,0.00448
+fsp_secagg,300,32,5,0.00448,64.0,704.0,0.00448
+privtree,300,32,5,0.09394,48.0,516.0,0.09394
